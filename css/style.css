@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(0, 175, 175);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    background-color: teal;
+    padding: 1.5rem;
+}
+
+button,
+select {
+    padding: .25rem;
+}
+
+main {
+    display: grid;
+    place-items: center;
+    padding: 2rem;
+}
+
+main p {
+    font-size: 2rem;
+}
+
+#grid {
+    border: 5px solid teal;
+    margin: 2rem 0;
+    display: none;
+    aspect-ratio: 1/1;
+}
+
+.square {
+    display: grid;
+    place-items: center;
+    border: 5px solid teal;
+    aspect-ratio: 1/1;
+    width: 4rem;
+}
+
+.clicked {
+    background-color: rgb(0, 56, 76);
+}
+
+.exploded {
+    background-color: red !important;
+}
+
+.flagged {
+    background-color: white;
+    background-image: url(/flag.png);
+    background-size: contain;
+}
+
+footer {
+    background-color: teal;
+    height: 3rem;
+    display: flex;
+    place-items: center;
+    padding: 1.5rem;
+}

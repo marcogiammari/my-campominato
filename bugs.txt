@@ -1,0 +1,5 @@
+// Sembra funzionare tutto bene 
+// qualche bug c'è quando rigiochi 
+// senza aggiornare la pagina
+// e quando passi da easy a medium o hard
+// sempre senza aggiornare
